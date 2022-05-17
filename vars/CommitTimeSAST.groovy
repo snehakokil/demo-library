@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
-def call() {
-    echo "Run commit-time SAST checks"
+def call(String toolName = 'SpotBugs') {
+    echo "Run commit-time SAST checks with ${toolName}"
     // Run commit-time SAST steps
 }
