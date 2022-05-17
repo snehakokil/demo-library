@@ -2,7 +2,7 @@
 package com.demo
 
 class SecurityPipeline {
- def execute() {
+ static void execute() {
   //Add stages for security pipeline workflow 
 
    stage('Build') {
