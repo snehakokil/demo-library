@@ -9,6 +9,6 @@ package com.demo
    }
 
    stage('Commit-time SAST') {
-     CommitTimeSAST //call the vars with or without args 
+     CommitTimeSAST 'SpotBugs' //call the vars with or without args 
    }
  }
