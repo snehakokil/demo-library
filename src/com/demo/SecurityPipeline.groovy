@@ -1,8 +1,7 @@
 #!/usr/bin/env groovy
 package com.demo
 
-class SecurityPipeline {
- static void execute() {
+ def execute() {
   //Add stages for security pipeline workflow 
 
    stage('Build') {
@@ -13,4 +12,3 @@ class SecurityPipeline {
      CommitTimeSAST //call the vars with or without args 
    }
  }
-}
